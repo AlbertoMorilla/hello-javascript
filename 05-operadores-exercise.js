@@ -1,24 +1,23 @@
 // 1. Crea una variable para cada operacion aritmetica.
 
-let a = 3
-let b = 5
-
-console.log(a + b)
-console.log(a - b)
-console.log(a * b)
-console.log(a / b)
-console.log(a % b)
-console.log(a ** b)
+let suma = 5 + 3
+let resta = 5 - 4
+let multiplica = 4 * 4
+let division = 3 / 7
+let modulus = 34 % 9
+let exponente = 6 ** 5
 
 
 // 2. Crea una variable para cada tipo de operacion de asignacin, que haga uso de las variables utilizadas para las operaciones aritmeticas.
 
-console.log(a += 2)
-console.log(b -= 2)
-console.log(a *= 2)
-console.log(b /= 2)
-console.log(a %= 2)
-console.log(b **= 2)
+let numero = 7
+
+numero += suma
+numero -= resta
+numero *= multiplica
+numero /= division
+numero %= modulus
+numero **= exponente
 
 // 3. Imprime 5 comparaciones verdades con diferentes operadores de comparacion.
 
